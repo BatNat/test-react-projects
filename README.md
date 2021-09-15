@@ -3,8 +3,7 @@
 1. В местах рендеринга styled-components надо импортировать бииблиотеку - import 'jest-styled-components'; Таким образом в итоговый снэпшот у Вас будут попалать не только названия сгенерированных классов, но и сненерированный css(особенно это помогает когда внутри styled-components есть логика, без импорта этой библиотеки у Вас ничего не будет выведено в снепшот)
 Пример:
 
-<code>
-    <pre>
+<code><pre>
     const Row = styled.div`
         padding: 16px;
         height: 54px;
@@ -39,9 +38,7 @@
       background: #F5F5F5;
     }<div
       className="c0"
-    />
-    </pre>
-</code>
+    /></pre></code>
 
 
 
